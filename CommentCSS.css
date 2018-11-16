@@ -1,0 +1,36 @@
+.inputcss{
+    padding: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.submit{
+    color: rgb(15, 15, 15);
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+.comments-container{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-comment{
+    padding: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.child-comment{
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
